@@ -9,9 +9,6 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
 
-      id_equivalencia: {
-        type: Sequelize.INTEGER,
-      },
       observaciones: {
         type: Sequelize.STRING,
       },
@@ -24,12 +21,16 @@ module.exports = {
       ingresado: {
         type: Sequelize.STRING,
       },
-      aceptado: {
+
+      status: {
+        type: Sequelize.STRING,
+      },
+      /*  aceptado: {
         type: Sequelize.STRING,
       },
       rechazado: {
         type: Sequelize.STRING,
-      },
+      }, */
 
       createdAt: {
         allowNull: false,
